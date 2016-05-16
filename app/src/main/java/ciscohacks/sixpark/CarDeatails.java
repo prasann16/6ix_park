@@ -16,11 +16,13 @@ public class CarDeatails extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
     }
+
+
 
     public void buttonOnClick (View v) {
         Button button = (Button) v;
         startActivity(new Intent(getApplicationContext(), Payment.class));
     }
-
 }

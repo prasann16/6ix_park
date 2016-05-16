@@ -34,38 +34,13 @@
         android:layout_marginBottom="65dp">
 
         <EditText
-            android:layout_width="55dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberPassword"
             android:ems="10"
             android:id="@+id/editText3"
             android:layout_weight="0.50"
             android:height="30dp" />
-
-        <EditText
-            android:layout_width="74dp"
-            android:layout_height="wrap_content"
-            android:inputType="numberPassword"
-            android:ems="10"
-            android:id="@+id/editText4"
-            android:layout_weight="0.29"
-            android:height="30dp" />
-
-        <EditText
-            android:layout_width="82dp"
-            android:layout_height="wrap_content"
-            android:inputType="numberPassword"
-            android:ems="10"
-            android:id="@+id/editText5"
-            android:height="30dp" />
-
-        <EditText
-            android:layout_width="89dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:id="@+id/editText6"
-            android:height="30dp"
-            android:inputType="number" />
 
     </LinearLayout>
 
@@ -84,8 +59,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="Submit"
         android:id="@+id/button3"
+        android:onClick="buttonOnClick"
         android:layout_below="@+id/textView8"
         android:layout_alignEnd="@+id/textView6"
         android:layout_marginTop="71dp" />
@@ -105,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text=" visit the nearest 6Park Parking "
+        android:text=" Visit the nearest 6Park Parking "
         android:id="@+id/textView8"
         android:layout_below="@+id/textView7"
         android:layout_alignParentStart="true"
